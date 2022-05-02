@@ -1,10 +1,10 @@
-.skills-card {
+.skills__card {
     flex-basis: calc((100%-3 * 30) / 3);
 }
-.overlay-skills {
+.skills__overlay {
     position: relative;
 }
-.overlay {
+.skills__overlay-p {
     position: absolute;
     font-weight: bold;
     font-size: 14px;

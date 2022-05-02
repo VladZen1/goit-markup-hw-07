@@ -84,7 +84,7 @@
     height: 86px;
 }
 
-.footer-form-p {
+.footer-form__p {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -94,7 +94,7 @@
     margin-bottom: 20px;
 }
 
-.footer-form-input {
+.footer-form__input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     width: 100%;
@@ -111,7 +111,7 @@
     }
 }
 
-.footer-form-btn {
+.footer-form__btn {
     margin-left: 12px;
     display: flex;
     padding: 8px 26px;
@@ -121,7 +121,7 @@
     cursor: pointer;
 }
 
-.footer-form-f {
+.footer-form__f {
     display: flex;
     align-items: center;
 }

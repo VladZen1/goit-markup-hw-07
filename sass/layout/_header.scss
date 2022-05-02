@@ -1,4 +1,4 @@
-.navigation .nav-list-link.current {
+.navigation .nav-list__link.current {
     color: var(--accent-color);
 }
 
@@ -24,15 +24,15 @@
     margin-left: auto;
 }
 
-.contact-header-mail {
+.contact-header__mail {
     margin-right: 50px;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.nav-list-link {
+.nav-list__link {
     position: relative;
     font-weight: 500;
     font-size: 14px;
@@ -58,7 +58,7 @@
     left: 0px;
 }
 
-.contact-mail-number {
+.contact-header__mail-number {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,12 +73,12 @@
         color: var(--accent-color);
     }
 
-    &:hover .mail-icon {
+    &:hover .contact-header__mail-icon {
         fill: var(--accent-color);
     }
 }
 
-.mail-icon {
+.contact-header__mail-icon {
     margin-right: 10px;
     fill: #757575;
     justify-content: center;

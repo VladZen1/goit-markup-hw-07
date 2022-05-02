@@ -93,11 +93,11 @@ img {
   display: flex;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,22 +107,22 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover, .social-list-link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-list-icon {
+.social-list__icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: #ffffff;
 }
 
-.footer-social-list-link:hover .social-list-icon,
-.footer-social-list-link:focus .social-list-icon {
+.footer-social-list-link:hover .social-list__icon,
+.footer-social-list-link:focus .social-list__icon {
   fill: #ffffff;
 }
 
@@ -141,7 +141,7 @@ img {
   text-align: center;
 }
 
-.description {
+.benefits__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -171,7 +171,7 @@ img {
   color: var(--accent-color);
 }
 
-.navigation .nav-list-link.current {
+.navigation .nav-list__link.current {
   color: var(--accent-color);
 }
 
@@ -197,15 +197,15 @@ img {
   margin-left: auto;
 }
 
-.contact-header-mail {
+.contact-header__mail {
   margin-right: 50px;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-list-link {
+.nav-list__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -215,7 +215,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-link:hover, .nav-list-link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -230,7 +230,7 @@ img {
   left: 0px;
 }
 
-.contact-mail-number {
+.contact-header__mail-number {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -241,15 +241,15 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-mail-number:hover, .contact-mail-number:focus {
+.contact-header__mail-number:hover, .contact-header__mail-number:focus {
   color: var(--accent-color);
 }
 
-.contact-mail-number:hover .mail-icon {
+.contact-header__mail-number:hover .contact-header__mail-icon {
   fill: var(--accent-color);
 }
 
-.mail-icon {
+.contact-header__mail-icon {
   margin-right: 10px;
   fill: #757575;
   justify-content: center;
@@ -274,7 +274,7 @@ img {
   padding-bottom: 0px;
 }
 
-.benefits-title {
+.benefits__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -283,11 +283,11 @@ img {
   margin-bottom: 10px;
 }
 
-.cards-benefits {
+.benefits__cards {
   flex-basis: calc((100%-4 * 30) / 4);
 }
 
-.benefits-icon {
+.benefits__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -311,15 +311,15 @@ img {
   margin-top: 30px;
 }
 
-.skills-card {
+.skills__card {
   flex-basis: calc((100%-3 * 30) / 3);
 }
 
-.overlay-skills {
+.skills__overlay {
   position: relative;
 }
 
-.overlay {
+.skills__overlay-p {
   position: absolute;
   font-weight: bold;
   font-size: 14px;
@@ -339,7 +339,7 @@ img {
   background: #f5f4fa;
 }
 
-.team-card {
+.team-section__card {
   flex-basis: calc((100%-4 * 30) / 4);
   border: 1px solid #ccc;
   border-top: none;
@@ -347,7 +347,7 @@ img {
   border-radius: 4px;
 }
 
-.team-title {
+.team-section__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -356,14 +356,14 @@ img {
   letter-spacing: 0.03em;
 }
 
-.team-cards-name {
+.team-section__cards-name {
   text-align: center;
   padding: 30px 32px;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
 
-.position {
+.team-section__position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -494,7 +494,7 @@ img {
   height: 86px;
 }
 
-.footer-form-p {
+.footer-form__p {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -504,7 +504,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-form-input {
+.footer-form__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   width: 100%;
@@ -514,14 +514,14 @@ img {
   color: #ffffff;
 }
 
-.footer-form-input::placeholder {
+.footer-form__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form-btn {
+.footer-form__btn {
   margin-left: 12px;
   display: flex;
   padding: 8px 26px;
@@ -531,7 +531,7 @@ img {
   cursor: pointer;
 }
 
-.footer-form-f {
+.footer-form__f {
   display: flex;
   align-items: center;
 }

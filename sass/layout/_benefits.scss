@@ -2,7 +2,7 @@
     padding-bottom: 0px;
 }
 
-.benefits-title {
+.benefits__title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -10,10 +10,10 @@
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.cards-benefits {
+.benefits__cards {
     flex-basis: calc((100%-4 * 30) / 4);
 }
-.benefits-icon {
+.benefits__icon {
     display: flex;
     align-items: center;
     justify-content: center;
