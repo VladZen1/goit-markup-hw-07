@@ -40,11 +40,11 @@
     letter-spacing: 0.02em;
     color: inherit;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.nav-list-link:hover,
-.nav-list-link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .current::after {
@@ -67,15 +67,15 @@
     display: flex;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contact-mail-number:hover,
-.contact-mail-number:focus {
-    color: var(--accent-color);
-}
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 
-.contact-mail-number:hover .mail-icon {
-    fill: var(--accent-color);
+    &:hover .mail-icon {
+        fill: var(--accent-color);
+    }
 }
 
 .mail-icon {
